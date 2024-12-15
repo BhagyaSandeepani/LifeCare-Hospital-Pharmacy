@@ -1,0 +1,240 @@
+/**Navigation bar styles**/
+ 
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(28, 150, 133);
+    width: 100%;
+    height: 70px;
+    }
+    .navbar >li{
+   
+    float: left;
+    }
+.navbar >li a    {  display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            padding-top: 20px;
+            padding-bottom: 30px;
+        }
+.navbar >li a:hover {
+    background-color: rgb(125, 209, 172);  
+}
+
+.navbar img{
+  width: 55px;
+  float: right;
+  margin-left: 10px;
+  text-align: right;
+  padding-right: 30px;
+}
+/** end vav bar styling**/
+
+/**Styles for main image**/
+.mainImg{
+    width: 100%;
+    height: 400px;
+}
+
+.checkoutPageImg{
+    height: 350px;
+    width: 100%;
+}
+.alert{
+    background-color: #218838;
+}
+
+/**Styles for headings**/
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/**Styles for category section**/
+.category-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    border: 4px solid black;
+    padding: 25px;
+    margin-bottom: 30px;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgba(239, 237, 233, 0.418);
+}
+
+/**Saparate flex box for each medicine**/
+.category-section>div{
+    display: flex;
+    text-align: center;
+    width: calc(33.333% - 20px);
+    align-items: center;
+    flex-direction:column;
+    padding: 13px;
+    background-color: rgba(167, 166, 164, 0.199);
+    border: 5px solid black;
+    border-radius: 9px;
+    box-sizing: border-box;
+}
+
+/**images od medicine**/
+.medicine-item img{
+    width: 200px;
+    height: 150px;
+    margin-bottom: 8px;
+    object-fit: contain;
+}
+/**Styles for labels of medicine**/
+.medicine-item label{
+    margin-bottom: 14px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/**Styles for quantity field**/
+.medicine-item input{
+    width: 70px;
+    text-align: center;
+    margin-top: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+/**Styles for table**/
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table, th, td{
+    border: 3px solid black;
+}
+
+th, td{
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.13);
+}
+
+#totalPrice{
+    font-size: 17px;
+    font-weight: bold;
+}
+thead{
+    background-color: #76d776;
+}
+
+table td img{
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px;
+    object-fit: contain;
+}
+
+/**Styles for buttons**/
+button{
+    display: inline-block;
+    background-color: #20532b;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+}
+
+button:hover{
+    background-color: #218838;
+}
+fieldset{
+    border: 4px solid black;
+    background-color: rgba(211, 209, 207, 0.386);
+    padding-top: 30px;
+}
+fieldset input{
+    margin-top: 20px;
+}
+/**Footer**/
+.footer{
+    width: 100%;
+    text-align: left;
+    padding: 30px 0;
+    background-color: rgba(3, 3, 65, 0.925);
+    height: 300px;
+    margin-top: 20px;
+  }
+  
+  .footer p{
+    text-align: left;
+    margin-left: 0%;
+    color: white;
+  }
+  
+  .footer h1{
+    text-align: center;
+    margin-top: 10px; 
+    font-size: 30px;
+    color: white;
+  }
+  
+  .p1{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 50%;
+    font-weight: bolder;
+    
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: right;
+    margin: 20px 0;
+  }
+  
+  .icons img {
+    margin: 0 15px;
+    cursor: pointer;
+    width: 25px; 
+    height: auto;
+    border-radius: 50%;
+  }
+  /**Footer end**/
+
+/** Responsive adjustments **/
+@media (max-width: 768px) {
+    .category-section .medicine-item {
+        width: calc(50% - 20px); 
+    }
+
+    .medicine-item img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .category-section .medicine-item {
+        width: 100%; 
+    }
+}
+
+
+
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="png/logo-color.png" type="image/x-icon">
+    <title>Pharmacy</title>
+</head>
+<body>
+    <!--Navigation bar-->
+<nav>
+    <ul class="navbar">
+    
+      <a href="index.html"><img src="png/logo-color.png" alt="logo of website" class="logo"></a> 
+    
+    <li><a href=index.html>Home</a></li>
+    <li><a href=about.html>About us and contact</a></li>
+    <li><a href=services.html>Services</a></li>
+    <li><a href=doctors.html>Doctors</a></li>
+    <li><a href=consulting.html>Consulting and reservation</a></li>
+    <li><a href=index.html>Pharmacy</a></li>
+    
+    </ul>
+    </nav>
+  <div class="flex-container">
+    <img class="mainImg" src="images/pharmacyIMG.jpg" alt="main image of pharmacy page">
+  </div>  
+
+  <div>
+    <h3>Get your medicine delivered right now to your door!</h3>
+  </div>
+
+    <h1>Purchase Your Order Here!</h1>
+    <!--Empty div-->
+    <!--Meidicines will be loaded from JSON file-->
+    <form id="medicine-form">
+      <div id="medicine" class="medicine-container"></div>
+    </form>
+
+    <table id="order-summary">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <div id="totalPrice">Total price:</div>
+    <button type="button" id="add-to-favorites">Add to Favorites</button>
+    <button type="button" id="apply-favorites">Apply Favorite</button>
+    <button type="button" id="clearFavorites">Clear Favorites</button>
+    <button type="button" id="buyNow">Buy Now</button>
+
+    <!--Footer section-->
+<footer>
+  <section class="footer">
+    <h1>Life Care</h1>
+    <p>Colombo: No.399,Kandy road,Colombo.</p>
+    <p>Kandy:No.434,peradeniya road,kandy.</p>
+    <p>Galle: No.25,colombo road,Galle.</p>
+    <p>E-mail: Lifecare@gmail.com</p>
+    <div class="p1">
+  <p>Hotline</p>
+  <p>1223</p>
+    </div>
+  <div class="icons">
+    <img src="logo/fb.png" alt="Facebook">
+    <img src="logo/insta.png" alt="Instagram">
+    <img src="logo/twiter.png" alt="Twitter">
+  </div>
+  </section>
+  </footer>
+<!--Footer end-->         
+
+    
+    
+    <script src="./main.js"></script>
+    
+</body>
+</html>

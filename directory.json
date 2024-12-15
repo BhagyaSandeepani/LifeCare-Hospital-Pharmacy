@@ -1,0 +1,79 @@
+{"medicine":[
+    {
+        "category":"Analgesics",
+        "items": [
+            {"name":"Aspirin", "price":"25","image":"images/aspirin.jpg"},
+            {"name":"Naproxen", "price":"30","image":"images/naproxen.jpg"},
+            {"name":"Morphine", "price":"15","image":"images/morphine.jpg"},
+            {"name":"Codeine", "price":"12","image":"images/codeine.jpg"},
+            {"name":"Hydrocodone", "price":"10","image":"images/hydrocodone.jpg"},
+            {"name":"Oxycodone", "price":"20","image":"images/oxycodone.jpg"},
+            {"name":"Paracetamol ", "price":"10","image":"images/paracetemol.jpg"},
+            {"name":"Tramadol", "price":"50","image":"images/tramadol.jpg"},
+            {"name":"Diclofenac", "price":"30","image":"images/diclo.jpg"}
+        
+        ]
+
+    },
+    
+    {
+        "category":"Antibiotics",
+        "items": [
+            {"name":"Azithromycin", "price":"50","image":"images/azi.jpg"},
+            {"name":"Amoxicillin", "price":"60","image":"images/amoxi.jpg"},
+            {"name":"Penicillin", "price":"65","image":"images/peniciline.jpg"},
+            {"name":"Doxycycline", "price":"35","image":"images/doxy.jpg"},
+            {"name":"Clindamycin", "price":"55","image":"images/clinda.jpg"},
+            {"name":"Cephalexin", "price":"40","image":"images/cephalexin.jpg"},
+            {"name":"Erythromycin", "price":"80","image":"images/ery.jpg"},
+            {"name":"Trimethoprim", "price":"50","image":"images/tri.jpg"},
+            {"name":"Metronidazole", "price":"60","image":"images/metro.jpg"}
+
+        ]
+    },
+        
+    {
+       "category":"Antidepressants",
+       "items": [
+        {"name":"Levofloxacin", "price":"70","image":"images/levo.jpg"},
+        {"name":"Fluoxetine ", "price":"45","image":"images/fluo.jpg"},
+        {"name":"Sertraline", "price":"75","image":"images/sertraline.jpg"},
+        {"name":"Citalopram", "price":"60","image":"images/citalo.jpg"},
+        {"name":"Escitalopram", "price":"30","image":"images/escitalo.jpg"},
+        {"name":"Paroxetine", "price":"55","image":"images/parox.jpg"},
+        {"name":"Amitriptyline", "price":"90","image":"images/amithri.jpg"},
+        {"name":"Mirtazapine ", "price":"60","image":"images/mirta.jpg"},
+        {"name":"Duloxetine ", "price":"80","image":"images/dulo.jpg"}
+
+
+            
+       ] 
+    },
+
+    {
+        "category":"Antihistamines",
+        "items":[
+            {"name":"Desloratadine", "price":"80","image":"images/deslo.jpg"},
+            {"name":"Cetirizine", "price":"70","image":"images/cetirizine.jpg"},
+            {"name":"Diphenhydramine", "price":"50","image":"images/diphen.jpg"},
+            {"name":"Loratadine", "price":"25","image":"images/lora.jpg"},
+            {"name":"Fexofenadine", "price":"60","image":"images/fexo.jpg"},
+            {"name":"Meclizine", "price":"90","image":"images/mecli.jpg"}
+        ]
+    },
+
+    {
+       "category":"Antihypertensive",
+       "items":[
+        {"name":"Lisinopril", "price":"40","image":"images/lisino.jpg"},
+        {"name":"Amlodipine", "price":"30","image":"images/amlo.jpg"},
+        {"name":"Losartan", "price":"70","image":"images/losa.jpg"},
+        {"name":"Metoprolol", "price":"90","image":"images/meto.jpg"},
+        {"name":"Valsartan", "price":"50","image":"images/valsarton.jpg"},
+        {"name":"Clonidine", "price":"40","image":"images/clonidine.jpg"}
+
+       ] 
+    }
+
+]
+}
